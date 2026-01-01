@@ -1,31 +1,4 @@
-## Installation
-
-### Install Neovim
-<details><summary> Linux and Mac </summary>
-
-```sh
-git clone https://github.com/fox5352/lazy-vim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
-```
-
-</details>
-
-<details><summary> Windows </summary>
-
-If you're using `cmd.exe`:
-
-```
-git clone https://github.com/fox5352/lazy-vim.git "%localappdata%\nvim"
-```
-
-If you're using `powershell.exe`
-
-```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
-```
-
-</details>
-
-### Post Installation
+### Installation
 
 Start Neovim
 #### Windows Installation
@@ -111,4 +84,28 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
 
+### Clone Reppo Neovim
+<details><summary> Linux and Mac </summary>
+
+```sh
+git clone https://github.com/fox5352/lazy-vim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+
+</details>
+
+<details><summary> Windows </summary>
+
+If you're using `cmd.exe`:
+
+```
+git clone https://github.com/fox5352/lazy-vim.git "%localappdata%\nvim"
+```
+
+If you're using `powershell.exe`
+
+```
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+```
+
+</details>
 
